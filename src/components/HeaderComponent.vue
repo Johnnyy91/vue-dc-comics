@@ -33,6 +33,7 @@ name : 'HeaderComponent'
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
     .list{
         display: flex;
         list-style-type: none;

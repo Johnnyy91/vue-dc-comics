@@ -15,6 +15,7 @@ name: 'SectionMainComponent'
 <style lang="scss" scoped>
   .box-black{
     background-color: black;
+    padding: 30px 0;
   }
   .section-content{
     max-width: 1200px;

@@ -68,7 +68,7 @@ name : 'FooterComponent'
   }
 
   .logo-footer img {
-    width: 30%;
+    width: 50%;
   }
 
   .link-list{

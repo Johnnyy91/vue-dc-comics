@@ -32,8 +32,8 @@ name : 'SecondSectionComponent'
 </script>
 
 <style lang="scss" scoped>
-   .logo-box{
-    background-color: blue;
+.logo-box{
+    background-color: hsl(209deg 100% 49%);
     padding: 50px 0;
    }
    .img-container{

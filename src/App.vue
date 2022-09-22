@@ -4,6 +4,7 @@
     <SectionMainComponent />
     <SecondSectionComponent />
     <FooterComponent />
+    <SecondFooterComponent />
     
   </div>
 </template>
@@ -13,6 +14,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import SectionMainComponent from './components/SectionMainComponent.vue';
 import SecondSectionComponent from './components/SecondSectionComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import SecondFooterComponent from './components/SecondFooterComponent.vue';
 
 
 export default {
@@ -22,6 +24,7 @@ export default {
     SectionMainComponent,
     SecondSectionComponent,
     FooterComponent,
+    SecondFooterComponent
 }
 }
 </script>
