@@ -34,6 +34,12 @@ name : 'SecondFooterComponent'
     border: 2px solid hsl(209deg 100% 49%);
     padding: 10px 15px;
     background-color: hsl(240deg 1% 19%);
+    margin-right: 240px;
+   }
+
+   button:hover{
+    cursor: pointer;
+    opacity: 0.7;
    }
 
    .icon-social{
@@ -46,5 +52,9 @@ name : 'SecondFooterComponent'
     img{
         padding: 0px 10px;
     }
+   }
+   .icon-social img:hover{
+    cursor: pointer;
+    opacity: 0.7;
    }
 </style>

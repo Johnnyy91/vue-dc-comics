@@ -17,7 +17,7 @@
          <img src="../assets/img/buy-comics-subscriptions.png" alt="">
          <span>Comic SHop Locator</span>
         </div>
-        <div class="card alternative">
+        <div class="card">
          <img src="../assets/img/buy-dc-power-visa.svg" alt="">
          <span>DC power Visa</span>
         </div>
@@ -34,7 +34,7 @@ name : 'SecondSectionComponent'
 <style lang="scss" scoped>
 .logo-box{
     background-color: hsl(209deg 100% 49%);
-    padding: 50px 0;
+    padding: 70px 0;
    }
    .img-container{
     display: flex;
@@ -50,5 +50,9 @@ name : 'SecondSectionComponent'
     img{
         height: 50px;
     }
+   }
+   .card:hover{
+    cursor: pointer;
+    opacity: 0.7;
    }
 </style>

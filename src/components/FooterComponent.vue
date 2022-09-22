@@ -65,10 +65,12 @@ name : 'FooterComponent'
     display: flex;
     justify-content: space-around;
     color: white;
+    overflow: hidden;
   }
 
   .logo-footer img {
-    width: 50%;
+    width: 100%;
+    margin: -50px 0;
   }
 
   .link-list{
@@ -79,6 +81,9 @@ name : 'FooterComponent'
         a{
             color: white;
             text-decoration: none;
+        }
+        a:hover{
+            text-decoration:underline;
         }
         };
     .content-list{

@@ -43,6 +43,10 @@ name : 'HeaderComponent'
                 text-decoration: none;
                 color: black;
             }
+            a:hover{
+                color: hsl(209deg 100% 49%);
+                text-decoration: underline;
+            }
         }
         
     }
