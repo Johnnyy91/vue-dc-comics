@@ -61,6 +61,12 @@ props:{
       width: 100%;
     }
   }
+  .card-container:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: translate(0 , -20px);
+  transition: 1s;
+  }
   p{
     color: white;
     text-transform: uppercase;
